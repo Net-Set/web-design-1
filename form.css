@@ -1,0 +1,41 @@
+body{
+    background: url("https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"), #111;
+    color:white
+}
+h3{
+    color:white;
+    
+    text-align: center;
+    
+}
+.form-group{
+    top:20px;
+}
+.squear{
+
+    position: absolute;
+    width: 80%;
+    height: 75%;
+    left: 10%;
+    top: 20%;
+background: rgba(85, 85, 85, 0.29);
+border-radius: 38px
+}
+.second_squear{
+    position: absolute;
+width: 80%;
+height: 75%;
+left: 30%;
+top:30%;
+
+background: rgba(85, 85, 85, 0.29);
+border-radius: 38px;
+}
+
+.squear h3{
+    color:rgb(173, 173, 173);
+    left:40%;
+
+    font-family: 'Times New Roman', Times, serif;
+    position:absolute;
+}

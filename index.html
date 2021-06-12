@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCon</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="index.html">iCon <p style="font-size: 10px;">Web Developer</p></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="about.html">About<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="about.html">Set 1</a></li>
+                </ul>
+              </li>
+              <li><a href="Contact.html">Contact</a></li>
+              <li><a href="help.html">Help</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+          
+              <li><a href="Subscribe.html"><span class="glyphicon glyphicon-log-in"></span> Subscribe</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
+    
+<div class="wrapper">
+    <div class="container text-center">
+      <div class="col-md-12">
+        <h1 id="header" class="">iCon <br>Web developer</h1>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <div class="clock">
+          <div class="well top-section">
+            <div id="days" class="num">00</div>
+          </div>
+          <div class="well bottom-section">
+            <div id="days-text" class="text">Days</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <div class="clock">
+          <div class="well top-section">
+            <div id="hours" class="num">00</div>
+          </div>
+          <div class="well bottom-section">
+            <div id="hours-text" class="text">Hours</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <div class="clock">
+          <div class="well top-section">
+            <div id="mins" class="num">00</div>
+          </div>
+          <div class="well bottom-section">
+            <div id="mins-text" class="text">Minutes</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <div class="clock">
+          <div class="well top-section">
+            <div id="secs" class="num">00</div>
+          </div>
+          <div class="well bottom-section">
+            <div id="secs-text" class="text">Seconds</div>
+          </div>
+        </div>
+      </div>
+      <div id="info" class="small"></div>
+    </div>
+  </div>
+   
+   
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="function.js"></script>
+    
+</body>
+</html>

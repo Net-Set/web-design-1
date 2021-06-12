@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCon
+
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="index.html">iCon</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="about.html">About<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="about.html">Set 1</a></li>
+                  <li><a href="about.html">Set 2</a></li>
+                  <li><a href="about.html">Set 3</a></li>
+                </ul>
+              </li>
+              <li><a href="Contact.html">Contact</a></li>
+              <li><a href="help.html">Help</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+          
+                <li><a href="Subscribe.html"><span class="glyphicon glyphicon-log-in"></span> Subscribe</a></li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+           
+      
+        <h3>Form</h3>
+      <div class="squear">
+          <h3 class="no-limits"></h3>
+          
+    
+       
+              <div class="form-group">
+                <label for="email">Name</label>
+                <input type="text"  class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text"  class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="email">Phone Number</label>
+                <input type="text"  class="form-control" id="number">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Location</label>
+                <input type="text" class="form-control" id="location">
+              </div>
+              <button  id="submit" class="btn btn-default">Submit</button>
+          
+            
+        </div>
+        
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+  
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+  
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyDesSHQBMI1bcdjqoIswrVUQDSb_gk_9J4",
+      authDomain: "formlink-ef77b.firebaseapp.com",
+      databaseURL: "https://formlink-ef77b-default-rtdb.firebaseio.com",
+      projectId: "formlink-ef77b",
+      storageBucket: "formlink-ef77b.appspot.com",
+      messagingSenderId: "831725286474",
+      appId: "1:831725286474:web:e2ba060e18abb549faa2b3",
+      measurementId: "G-0JEVJCSC22"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+  <script src="formjs.js"></script>
+</body>
+</html>
